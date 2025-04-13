@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepfake Detector</title>
+</head>
+<body>
+    <h2>Upload Image or Video</h2>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*,video/*" required><br><br>
+        <input type="submit" value="Detect Deepfake">
+    </form>
+</body>
+</html>
